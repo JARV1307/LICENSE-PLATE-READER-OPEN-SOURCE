@@ -1,3 +1,0 @@
-!pip install roboflow
-!pip install opencv-python
-!pip install easyocr
