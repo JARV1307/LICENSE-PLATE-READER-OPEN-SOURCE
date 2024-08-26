@@ -207,8 +207,6 @@ def deteccion_matricula(path,model):
 
   return lector_matricula(inverted)#texto_matricula
 
-#TEST
-deteccion_matricula('/content/drive/MyDrive/Imagenes_proyecto_SMA (1)/Imagenes_proyecto_SMA/img1.jpg',model)
 
 rf = Roboflow(api_key="63d1a9aEZEaXTBeLdSq4")
 project = rf.workspace().project("license-plate-recognition-rxg4e")
